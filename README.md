@@ -16,7 +16,7 @@ Just copy them over to the /System/...
 
 <pre><code>
 sudo cp -r /Library/Java/JavaVirtualMachines/* /System/Library/Java/JavaVirtualMachines/
-</code><pre>
+</code></pre>
 
 You may be able to stop here and point Android Studio's SDK path to:
 
