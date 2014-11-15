@@ -3,6 +3,12 @@ SimpleAndroidApp
 
 Just our "hello world" app to start creating Android Applications for our project.
 
+The commits to this repo are set up through the Android Studio itself. Ask Jen for 
+the credentials since this is a public repo.
+
+Commits for the official app should go into the androidapp repo, not here. This repo
+is for us to play...
+
 There is an issue with Android Studio 21 where it REALLY wants to use Java SDK 7.
 These are the steps to install is and (optionally) remove the Java SDK 1.6 that Apple 
 Forces you to use:
@@ -29,7 +35,7 @@ If that doesn't work, this worked for me before adding the above path to the And
 <pre><code>
 sudo rm -rf /System/Library/Java/JavaVirtualMachines/
 sudo rm /private/var/db/receipts/com.apple.pkg.JavaForMacOSX*
-</code><pre>
+</code></pre>
 Now open the InstallHistory.plist file and remove any lines that match the search for "java"
 
 <pre><code>
@@ -48,7 +54,7 @@ It should output:
 java version "1.7.0_71"
 Java(TM) SE Runtime Environment (build 1.7.0_71-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 24.71-b01, mixed mode)
-</code><pre>
+</code></pre>
 
 Now set your JAVA_HOME
 <pre><code>
